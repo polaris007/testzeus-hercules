@@ -35,6 +35,8 @@ COPY . /testzeus-hercules
 # Install UV
 RUN pip install uv
 
+ENV UV_HTTP_TIMEOUT=600 
+
 # Install dependencies (no dev dependencies)
 RUN uv sync --frozen --no-dev
 
