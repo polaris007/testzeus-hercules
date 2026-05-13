@@ -1,0 +1,1 @@
+docker run --env-file=env -v ./agents_llm_config.json:/testzeus-hercules/agents_llm_config.json -v ./opt:/testzeus-hercules/opt -v ./data:/tmp/data --name hercules -it --entrypoint /bin/bash hercules:0.2.2
