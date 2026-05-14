@@ -140,12 +140,12 @@ dmypy.json
 **/temp
 **/log_files
 **/screen_shots
-**/opt
+#**/opt
 **/output
 **/gherkin_files
 
-**/opt/input/test.feature
-**/opt/test_data/test_data.txt
+#**/opt/input/test.feature
+#**/opt/test_data/test_data.txt
 
 hercules/**/*.feature
 testzeus-hercules/**/*.feature
@@ -153,7 +153,7 @@ testzeus-hercules/**/*.feature
 
 **/test-results
 
-**/input
+#**/input
 **/proofs
 **/tests/run_data
 **/agents_llm_config.json
