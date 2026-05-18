@@ -1,0 +1,48 @@
+{
+    "deepseek": {
+		"planner_agent": {
+			"model_name": "DeepSeek-V3.1",
+			"model_api_key": "1a37f951c55145fcaaed12bafea9b823",
+			"model_base_url": "https://wishub-x6.ctyun.cn/v1",
+            "llm_config_params": {
+                "cache_seed": null,
+                "temperature": 0.0,
+                "max_retries": 5,
+                "seed": 12345
+            }
+		},
+		"nav_agent": {
+			"model_name": "DeepSeek-V3.1",
+			"model_api_key": "1a37f951c55145fcaaed12bafea9b823",
+			"model_base_url": "https://wishub-x6.ctyun.cn/v1",
+            "llm_config_params": {
+                "cache_seed": null,
+                "temperature": 0.0,
+                "max_retries": 5,
+                "seed": 12345
+            }
+		},
+		"mem_agent": {
+			"model_name": "DeepSeek-V3.1",
+			"model_api_key": "1a37f951c55145fcaaed12bafea9b823",
+			"model_base_url": "https://wishub-x6.ctyun.cn/v1",
+            "llm_config_params": {
+                "cache_seed": null,
+                "temperature": 0.0,
+                "max_retries": 5,
+                "seed": 12345
+            }
+		},
+		"helper_agent": {
+			"model_name": "DeepSeek-V3.1",
+			"model_api_key": "1a37f951c55145fcaaed12bafea9b823",
+			"model_base_url": "https://wishub-x6.ctyun.cn/v1",
+            "llm_config_params": {
+                "cache_seed": null,
+                "temperature": 0.0,
+                "max_retries": 5,
+                "seed": 12345
+            }
+		}
+	}
+}

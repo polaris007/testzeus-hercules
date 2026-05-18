@@ -2,8 +2,8 @@
 #FROM python:3.11-slim
 FROM python:3.11-slim-bookworm 
 
-ENV http_proxy=http://172.29.0.1:7890
-ENV https_proxy=http://172.29.0.1:7890
+ENV http_proxy=http://172.20.96.1:7890
+ENV https_proxy=http://172.20.96.1:7890
 
 # Install build tools and system dependencies
 RUN apt-get update && apt-get install -y \

@@ -25,4 +25,9 @@ fi
 export AUTO_MODE=1
 
 # Execute the main application
-exec uv run python testzeus_hercules
+#exec uv run python testzeus_hercules
+
+#Activate virtuanl environment and execute the main application
+. /testzeus-hercules/.venv/bin/activate
+exec python testzeus_hercules
+
