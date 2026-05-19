@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     unzip \
+    vim \
     ca-certificates \
     fonts-liberation \
     libasound2 \
